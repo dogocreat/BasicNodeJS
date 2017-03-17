@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Basic NodeJS sample</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div>
+        POST
+    </div>
+    <form method="POST" action="http://localhost:8888/todo">
+        <tr>
+            <td>id</td>
+            <td><input type="text" name="id" value="1"></td>
+        </tr>
+        <tr>
+            <td>name</td>
+            <td><input type="text" name="name" value="sample"></td>
+        </tr>
+        <tr>
+            <button type="submit">send</button>
+        </tr>
+    </form>
+    <div>
+        GET
+    </div>
+    <form method="GET" action="http://localhost:8888/todo">
+        <tr>
+            <td>id</td>
+            <td><input type="text" name="id" value="1"></td>
+        </tr>
+        <tr>
+            <button type="submit">send</button>
+        </tr>
+    </form>
+    <div>
+        DELETE
+    </div>
+    <form method="DELETE" action="http://localhost:8888/todo">
+        <tr>
+            <td>id</td>
+            <td><input type="text" name="id" value="1"></td>
+        </tr>
+        <tr>
+            <button type="submit">send</button>
+        </tr>
+    </form>
+    <div>
+        PUT
+    </div>
+    <form method="PUT" action="http://localhost:8888/todo">
+        <tr>
+            <td>id</td>
+            <td><input type="text" name="id" value="1"></td>
+        </tr>
+        <tr>
+            <button type="submit">send</button>
+        </tr>
+    </form>
+
+</body>
+
+</html>
